@@ -1,0 +1,72 @@
+.menu_main_logo{
+    font-size:30px;
+    color: lightblue;
+}
+.row{
+    background-color: #35404f;
+}
+.menu{
+  padding-bottom:1px;
+}
+
+.col-xs-8{text-align:justify;list-style:none; margin-top: 0;}
+
+
+.col-xs-8{
+  color: green;
+}
+
+body{
+	background-image: url("/images/bg.jpg");	
+}
+
+
+
+.menu_main {
+    height: 90px;
+  }
+  .menu_main_logo {
+    padding-top: 6%;
+  }
+  .menu_main_content {
+      padding-top: 2%;
+      font-family: Abril Fatface;
+      font-size: 20px;
+  }
+
+.menu_main p{
+	color: #f1f1f1;
+}
+ .droplink {
+     background-color: #4CAF50;
+
+     border: none;
+     cursor: pointer;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #41f1f4;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 9999;
+ }
+
+ .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+ }
+
+
+ .dropdown-content a:hover {background-color: #f1f1f1}
+
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+
+ .dropdown:hover .droplink {
+     background-color: #3e8e41;
+ }
